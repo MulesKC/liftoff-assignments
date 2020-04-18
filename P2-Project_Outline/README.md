@@ -1,51 +1,33 @@
 # Project Outline
-For this assignment, you will submit a high-level outline of your project. This can, and likely will, change over time. In particular, your mentor will provide direction and feedback to help sharpen your ideas. So don't worry if you feel unsure about some aspects of the outline or if you have to change some things later.
+The Water Garden Society of the Greater Kansas City area (WGSGKC) holds an annual tour of water gardens in the area. WGSGKC is a 501(c)3 not-for-profit organization dedicated to the construction, preservation, and appreciation of water gardens throughout the Kansas City metro area.
 
-## Assignment Description
-[Project Outline Assignment](https://education.launchcode.org/liftoff/modules/assignments/project-outline)
+WGSGKC publishes paper tour guides which they sell in local businesses and at local venues. The paper tour guide serves as the 'ticket' for access to the gardens on the tour. The tour guide contains information on each of the water gardens, maps showing recommended routes from one to another, and advertising. The tour proceeds and advertising revenue provide for the vast majority of the society's limited annual operating budget.
 
-## Submission Instructions
+## Overview 
 
-### Overview
-Build a website to assist in the planning of activities that involve lots of equipment. I had initially thought about this project in terms of outdoor activities such as camping, backpacking, or climbing. But I think it could be used any time someone has a need for creating a list from a larger list of items. Generally, it would allow someone to create a list of items that could then be added to a trip/event. The items could have customized properties similar to properties in a class in Java (boolean for if item is clean, string for notes, int counter for weight, stuff like that). Designed for ultimate flexibility, I think this could be helpful in a lot of situations. 
+WGSGKC presently does not have a way of providing the tour guide either online or in a phone app. This project seeks to
+provide a functioning website on which a phone app may be developed and improved upon.
 
-A multi-day backpacking trip in the wilderness nearly requires something like this. In packing for one of these trips, there is a balance between making your trip more enjoyable and weighing yourself down (literally). Often, the more luxury, the more weight, leading to lots of equipment options and decisions about what to bring. Often it's impractical, or just a pain, to get all of your equipment out for planning so it is very nice to have everything in an accessible list.
+## Minimum viable product objectives
 
+- User Login
+- Database with info on gardens
+-- Owner name, address, description, category features
+- Map with pins showing garden locations
+-- Ability to get directions to pinned location
+- List of information on Gardens
+- Responsive Design
 
+## Technologies
 
-
-
-
-
-### Features
-- login
-- create trips
-- edit basic information within trips, including location (Google Maps API)
-- view trip list
-- create items
-- edit custom properties within items, also categories
-- add items to a trip
-- view items in a list
-- sort/filter items in view
-- templates for items (similar items w/ similar properties)
-- templates for events (same item list)
-- select an item as "packed" in a trip's item list
-- export lists to .csv, .xlsx
-
-### Technologies
 - Java
-- JavaScript
-- Angular
 - Spring Boot
-- Bootstrap
 - MySQL
+- Thymeleaf templates
+- Bootstrap
 - Google Maps API
-- Thymeleaf
 
-
-### What I'll Have to Learn
-- Google Maps API
-- tons of other unexpected things and half of the things I thought I already knew :)
-
-### Project Tracker
-- https://trello.com/b/XJ2AOujZ/trip-helper
+## What the Team Will Need to Learn
+- How to work together on a team to produce a product from concept through demonstration of product
+- How to interact as a team using Github and Trello
+- How to interact with Google maps to display multiple pins and select a pin for directions

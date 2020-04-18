@@ -2,3 +2,7 @@
 .vs/
 .idea/
 *.swp
+.gradle
+gradle/
+gradlew
+gradlew.bat
